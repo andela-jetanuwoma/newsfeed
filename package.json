@@ -1,0 +1,31 @@
+{
+  "name": "newsfeed",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^2.9.1",
+    "babel-plugin-import": "^1.1.1",
+    "flux": "^3.1.2",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "request": "^2.81.0",
+    "scss-compile": "^0.1.7",
+    "semantic-ui-react": "^0.67.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-react-intl": "^2.3.1",
+    "babel-preset-react-app": "^2.2.0",
+    "node-sass": "^4.5.2",
+    "react-scripts": "0.9.5",
+    "semantic-ui": "^2.2.10"
+  },
+  "scripts": {
+    "build-css": "node-sass src/ -o src/",
+    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
