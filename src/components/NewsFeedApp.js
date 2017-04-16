@@ -1,10 +1,4 @@
 import React from 'react';
-import NewsStore from '../stores/NewsStore';
-import AppActions from '../actions/AppActions';
-import NewsSourcesStore from '../stores/NewsSourcesStore';
-import API from '../configs/API';
-import SourcesContainer from '../configs/newsContainer';
-import request from 'request';
 import {
   BrowserRouter as Router,
   Route,

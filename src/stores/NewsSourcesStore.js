@@ -5,10 +5,10 @@ import assign from 'object-assign';
 
 var CHANGE_EVENT = 'change';
 
-var NewsSourcesStore = assign({}, EventEmitter.prototype, {
+let NewsSourcesStore = assign({}, EventEmitter.prototype, {
 
     // Actual collection of model data
-    sources: [{header:"jude testing",description:"description"}],
+    sources: [],
 
     // Accessor method we'll use later
     getAll: function() {
